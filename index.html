@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royalbook-Login</title>
+  <link rel='stylesheet' href='css/bootstrap.css'>
+  <script src='js/jquery-3.4.3.min.js'></script>
+  <script src='js/popper.min.js'></script>
+  <script src='js/bootstrap.js'></script>
+</head>
+<body class='bg-light'>
+  
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    
+    <div class='container'>
+      
+      <a class='navbar-brand' href='#'><h3>Royalbook</h3></a>
+      
+      <!--Login-->
+      <form>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <label class='text-light' for='username' aria-label='Masuk'>Username</label>
+          </div>
+          <div class='col-sm-4'>
+            <label class='text-light' for='password' aria-label='Masuk'>Password</label>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col'>
+            <input class='form-control mr-sm-2' id='username' type='email' placeholder='username'>
+          </div>
+          <div class='col'>
+            <input class='form-control mr-sm-2' id='password' type='password' placeholder='password'>
+          </div>
+          <div class='col'>
+            <a class='btn btn-success' href='profile.html'>Masuk</a>
+          </div>
+        </div>
+      </form>
+      
+    </div>
+    
+  </nav>
+  
+  <!--Sign Up Content-->
+  <div class='container mt-5'>
+    
+    <div class='row'>
+      
+      <div class='col-sm'>
+        <h4>Royalbook membantu kamu dalam melupakan mantan yang meninggalkanmu.</h4>
+        <img class='img-fluid mt-4' src='img/people.png'>
+        <br><br><br>
+        <p class='text-muted'>&copy; Muhammad Yunus Sandi (21220360)</p>
+      </div>
+      
+      <div class='col-sm'>
+        <h4>Daftar sekarang</h4>
+        <p>Gratis tanpa biaya apapun.</p>
+        <hr>
+        <form class=''>
+          <div class='form-group row'>
+            <label for='firstName' class='col-4 col-form-label'>Nama Depan</label>
+            <div class='col-sm-7'>
+              <input id='firstName' class='form-control' placeholder='Nama Depan' type='text'>
+            </div>
+          </div>
+          <div class='form-group row'>
+            <label for='lastName' class='col-4 col-form-label'>Nama Belakang</label>
+            <div class='col-sm-7'>
+              <input id='lastName' class='form-control' placeholder='Nama Belakang' type='text'>
+            </div>
+          </div>
+          <div class='form-group row'>
+            <label for='inputEmail' class='col-4 col-form-label'>Email</label>
+            <div class='col-sm-7'>
+              <input id='inputEmail' class='form-control' placeholder='Email' type='email'>
+            </div>
+          </div>
+          <div class='form-group row'>
+            <label for='inputPassword' class='col-4 col-form-label'>Password</label>
+            <div class='col-sm-7'>
+              <input id='inputPassword' class='form-control' placeholder='Password' type='password'>
+            </div>
+          </div>
+          <div class='form-group row'>
+            <label for='confirmPassword' class='col-4 col-form-label'>Konfirmasi Password</label>
+            <div class='col-sm-7'>
+              <input id='confirmPassword' class='form-control' placeholder='Konfirmasi Password' type='password'>
+            </div>
+          </div>
+          <fieldset class='form-group'>
+            <div class='row'>
+              <legend class='col-4 col-form-label'>Jenis Kelamin</legend>
+              <div class='col-sm-7'>
+                <div class='form-check'>
+                  <input id='male' class='form-check-input' type='radio' name='gender'>
+                  <label for='male' class='form-check-label'>Laki-laki</label>
+                </div>
+                <div class='form-check'>
+                  <input id='female' class='form-check-input' type='radio' name='gender'>
+                  <label for='female' class='form-check-label'>Perempuan</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <button type='button' class='btn btn-success'>Daftar deh</button>
+        </form>
+      </div>
+      
+    </div>
+    
+  </div>
+  
+</body>
+</html>
